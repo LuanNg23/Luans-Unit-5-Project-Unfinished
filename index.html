@@ -1,0 +1,70 @@
+<!DOCTYPE html> <html><head>
+        <title>Luan's Unit 5 Project (Unfinished)</title>
+        <link href="https://fonts.googleapis.com/css2?family=Oswald&amp;display=swap" rel="stylesheet">
+    <style>body {
+    font-family: 'Oswald', sans-serif;
+    background-color: white;
+    text-align: center;
+}
+
+img {
+    width: 450px;
+}
+
+.result{
+    display: none;
+}
+.cat{
+    display: none;
+}
+.dog{
+    display: none;
+}
+.owl{
+    display: none;
+}
+.bird{
+    display:none;
+}</style></head>
+    <body>
+        <div class="title">
+            <h1>The Animal That Suits You Best</h1>
+        </div>
+        <div class="questions">
+            <h3> How would you rate your friendliness? (From 1-10)</h3>
+            <img src="https://media.istockphoto.com/id/1367877593/vector/rate-us-bar-from-1-to-10-best-for-website-design-app-ui-isolated-on-white-background-eps-10.jpg?s=612x612&amp;w=0&amp;k=20&amp;c=zjKWryv2En_OCiv1YzbQR1kfwpprUDWfX_qTn94wqUs=">
+            <div class="options1">
+            <input class="answer1"> 
+            </div>
+            <h3>You plan on making some type of dessert.. What will you make?</h3>
+            <img src="https://media.istockphoto.com/id/623709028/photo/table-with-various-cookies-tarts-cakes-cupcakes-and-cakepops.jpg?s=612x612&amp;w=0&amp;k=20&amp;c=NX-Ld03_GDHO77WjzzrUacReuoaXHajIXPsjdxgJDG8=">
+            <div class="options2">
+            <input class="answer2">
+            </div>
+        </div>
+        <button class="submit"> Submit!</button>
+        <div class="result">
+            this is where the user will see their quiz result!
+        </div>
+<div>
+        <h1 class="cat"> You are.. definitely a CAT!</h1>
+        <h1 class="dog"> You are.. most likely a DOG!</h1>
+        <h1 class="owl"> You are.. truly a OWL! </h1>
+        <h1 class="bird"> You are.. free as a BIRD!</h1>
+        </div>  
+
+    
+<script>
+/*__POPCODESTART__*/
+var finale = document.querySelector(".result");
+var input1;
+var input2;
+var button = document.querySelector(".submit");
+
+button.onclick = function () {
+  input1 = document.querySelector(".answer1").value;
+  input2 = document.querySelector(".answer2").value;
+  console.log(input2);
+  console.log(input1);
+};
+//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInBvcGNvZGVQcmV2aWV3LmpzIl0sIm5hbWVzIjpbImZpbmFsZSIsImRvY3VtZW50IiwicXVlcnlTZWxlY3RvciIsImlucHV0MSIsImlucHV0MiIsImJ1dHRvbiIsIm9uY2xpY2siLCJ2YWx1ZSIsImNvbnNvbGUiLCJsb2ciXSwibWFwcGluZ3MiOiJBQUFBLElBQUlBLE1BQU0sR0FBRUMsUUFBUSxDQUFDQyxhQUFULENBQXVCLFNBQXZCLENBQVo7QUFDQSxJQUFJQyxNQUFKO0FBQ0EsSUFBSUMsTUFBSjtBQUNBLElBQUlDLE1BQU0sR0FBRUosUUFBUSxDQUFDQyxhQUFULENBQXVCLFNBQXZCLENBQVo7O0FBQ0FHLE1BQU0sQ0FBQ0MsT0FBUCxHQUFlLFlBQVU7QUFDckJILEVBQUFBLE1BQU0sR0FBRUYsUUFBUSxDQUFDQyxhQUFULENBQXVCLFVBQXZCLEVBQW1DSyxLQUEzQztBQUNKSCxFQUFBQSxNQUFNLEdBQUVILFFBQVEsQ0FBQ0MsYUFBVCxDQUF1QixVQUF2QixFQUFtQ0ssS0FBM0M7QUFDSUMsRUFBQUEsT0FBTyxDQUFDQyxHQUFSLENBQVlMLE1BQVo7QUFDQUksRUFBQUEsT0FBTyxDQUFDQyxHQUFSLENBQVlOLE1BQVo7QUFHSCxDQVBEIiwic291cmNlc0NvbnRlbnQiOlsibGV0IGZpbmFsZT0gZG9jdW1lbnQucXVlcnlTZWxlY3RvcihcIi5yZXN1bHRcIik7XG5sZXQgaW5wdXQxO1xubGV0IGlucHV0MjtcbmxldCBidXR0b249IGRvY3VtZW50LnF1ZXJ5U2VsZWN0b3IoXCIuc3VibWl0XCIpO1xuYnV0dG9uLm9uY2xpY2s9ZnVuY3Rpb24oKXtcbiAgICBpbnB1dDE9IGRvY3VtZW50LnF1ZXJ5U2VsZWN0b3IoXCIuYW5zd2VyMVwiKS52YWx1ZTtcbmlucHV0Mj0gZG9jdW1lbnQucXVlcnlTZWxlY3RvcihcIi5hbnN3ZXIyXCIpLnZhbHVlO1xuICAgIGNvbnNvbGUubG9nKGlucHV0Mik7XG4gICAgY29uc29sZS5sb2coaW5wdXQxKTtcbiAgICBcblxufTtcbiJdfQ==</script></body></html>
