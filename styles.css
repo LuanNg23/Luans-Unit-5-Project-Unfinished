@@ -1,0 +1,25 @@
+body {
+    font-family: 'Oswald', sans-serif;
+    background-color: white;
+    text-align: center;
+}
+
+img {
+    width: 450px;
+}
+
+.result{
+    display: none;
+}
+.cat{
+    display: none;
+}
+.dog{
+    display: none;
+}
+.owl{
+    display: none;
+}
+.bird{
+    display:none;
+}
